@@ -1,5 +1,132 @@
 @charset "utf-8";
 
+.navMenu {padding: 0 1rem;}
+.navMenu ul:after {content:"";display:block;clear:both;}
+.navMenu li {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.navMenu a {
+	display: block;
+	margin: 0 1rem;
+	font-weight: bold;
+}
+.navMenu a:before {
+	content: "";
+	display: block;
+	height: 4rem;
+	margin: 1rem 0;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.navMenu .navNews a:before {background-image: url('/resource/images/icon_nav_news.png');}
+.navMenu .navGame a:before {background-image: url('/resource/images/icon_nav_game.png');}
+.navMenu .navShoping a:before {background-image: url('/resource/images/icon_nav_shoping.png');}
+.navMenu .navMap a:before {background-image: url('/resource/images/icon_nav_map.png');}
+.navMenu .navSearch a:before {background-image: url('/resource/images/icon_nav_search.png');}
+
+.dataChart {
+	padding: 1rem 0;
+	font-size: 0;
+	text-align: center;
+}
+.main .dataChart {margin-top: 2rem;}
+.dataChart li {
+	position: relative;
+	display: inline-block;
+	padding: 0 .5rem 0 3.5rem;
+	font-size: 1rem;
+	text-align: left;
+}
+.dataChart .chart {
+	position: absolute;
+	top: 0; left: 0;
+	width: 3rem;
+}
+.dataChart .chart img {width: 100%;}
+
+.weatherWrap {
+	position: relative;
+	box-sizing: border-box;
+	height: 6.9rem;
+	padding: .7rem 0 0 8rem;
+	border-top: .7rem solid #F3F3F3;
+	border-bottom: .7rem solid #F3F3F3;
+	font-size: 1.1rem;
+}
+.weatherWrap .state {
+	position: absolute;
+	top: 0; bottom: 0; left: 2.5rem;
+}
+.weatherWrap .state img {
+	width: 4.5rem;
+	vertical-align: middle;
+}
+.weatherWrap .state:after {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.weatherWrap .area {
+	display: block;
+	font-size: 1.6rem;
+}
+.weatherWrap .temp {
+	position: absolute;
+	top: .8rem; right: 3rem;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.realTimeKeyword {
+	position: relative;
+	padding: .9rem 4.5rem .9rem 9.5rem;
+}
+.realTimeKeyword .title {
+	position: absolute;
+	top: .75rem; left: 1.5rem;
+	padding: .2rem .5rem;
+	background: #DC0025;
+	color: #fff;
+	font-size: 1.1rem;
+}
+.realTimeKeyword .list {
+	overflow: hidden;
+	height: 1.8rem;
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+.realTimeKeyword .list li {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+}
+.realTimeKeyword .list .num {
+	display: inline-block;
+	margin: 0 .5rem 0 0;
+	color: #DC0025;
+	font-style: italic;
+}
+.realTimeKeyword .btn {
+	position: absolute;
+	top: 0; right: 0;
+	width: 3rem;
+	height: 100%;
+	background: url('/resource/images/icon_arrow.png') no-repeat 0 50%;
+	background-size: .9rem;
+	font-size: 0;
+}
+
+.banner {
+	border-top: .7rem solid #F3F3F3;
+	border-bottom: .7rem solid #F3F3F3;
+}
+.banner img {width: 100%;}
+
 .topSlide {
 	position: relative;
 	margin: 1rem;
