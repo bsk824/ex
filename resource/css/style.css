@@ -50,10 +50,9 @@
 .weatherWrap {
 	position: relative;
 	box-sizing: border-box;
-	height: 6.9rem;
+	height: 6.2rem;
 	padding: .7rem 0 0 8rem;
 	border-top: .7rem solid #F3F3F3;
-	border-bottom: .7rem solid #F3F3F3;
 	font-size: 1.1rem;
 }
 .weatherWrap .state {
@@ -85,6 +84,7 @@
 	position: relative;
 	padding: .9rem 4.5rem .9rem 9.5rem;
 }
+.realTimeKeyword + .dataChart {border-top: .1rem solid #D5D5D5;}
 .realTimeKeyword .title {
 	position: absolute;
 	top: .75rem; left: 1.5rem;
@@ -121,10 +121,7 @@
 	font-size: 0;
 }
 
-.banner {
-	border-top: .7rem solid #F3F3F3;
-	border-bottom: .7rem solid #F3F3F3;
-}
+.banner {border-top: .7rem solid #F3F3F3;}
 .banner img {width: 100%;}
 
 .topSlide {

@@ -60,12 +60,12 @@ hr {margin:.5rem 0; border: 0;border-top: 1rem solid #eef3f9;}
 }
 #header {
 	position: relative;
-	padding: 0 1.5rem;
 }
 .main #header {margin: 0 0 2.5rem;}
 #header h1 {
 	height: 4.4rem;
 	text-align: center;
+	font-size: 0;
 }
 .main #header h1 {
 	height: 12.5rem;
@@ -79,10 +79,13 @@ hr {margin:.5rem 0; border: 0;border-top: 1rem solid #eef3f9;}
 }
 #header h1 a {
 	display: inline-block;
+	vertical-align: middle;
 	font-size: 0;
+}
+#header h1 img {
+	width: 2.35rem;
 	vertical-align: middle;
 }
-#header h1 img {width: 2.35rem;}
 .main #header h1 img {width: 4.5rem;}
 #header .btnMenu {
 	position: absolute;
@@ -95,6 +98,7 @@ hr {margin:.5rem 0; border: 0;border-top: 1rem solid #eef3f9;}
 }
 #header .searchField {
 	position: relative;
+	margin: 0 1.5rem;
 	padding-right: 4rem;
 	border: .2rem solid #DC0025;
 	border-radius: .3rem;
@@ -120,6 +124,25 @@ hr {margin:.5rem 0; border: 0;border-top: 1rem solid #eef3f9;}
 	width: 4.5rem; 
 	height: 4.4rem;
 }
+#header .headNav {border-bottom: .7rem solid #F3F3F3;}
+#header .headNav:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+#header .headNav li {
+	float: left;
+	width: 16.66%;
+	text-align: center;
+}
+#header .headNav a {
+	display: inline-block;
+	padding: 1rem 0;
+	border-bottom: .25rem solid transparent;
+	line-height: 1;
+	font-weight: bold;
+}
+#header .headNav .active a {border-color: #DC0025;}
 
 #footer {
 	padding: 2rem .5rem;
