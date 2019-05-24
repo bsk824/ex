@@ -124,6 +124,38 @@
 .banner {border-top: .7rem solid #F3F3F3;}
 .banner img {width: 100%;}
 
+.linkList {
+	padding: 0 1.5rem;
+	border-top: .7rem solid #F3F3F3;
+}
+
+.linkList .txtType li {
+	line-height: 2;
+	border-top: .1rem solid #D5D5D5;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.linkList .txtType li:first-child {border: 0;}
+.linkList .thumbType li {
+	float: left;
+	width: 33.33%;
+}
+.linkList .thumbType:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.linkList .thumbType .thumb {
+	display: block;
+	border: .1rem solid #D5D5D5;
+}
+.linkList .thumbType img {width: 100%;}
+.linkList .thumbType a {
+	display: block;
+	margin: 0 .2rem;
+}
+
 .topSlide {
 	position: relative;
 	margin: 1rem;
