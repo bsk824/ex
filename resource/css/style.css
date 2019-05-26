@@ -120,7 +120,7 @@
 	top: 0; right: 0;
 	width: 3rem;
 	height: 100%;
-	background: url('/resource/images/icon_arrow.png') no-repeat 0 50%;
+	background: url('../images/icon_arrow.png') no-repeat 0 50%;
 	background-size: .9rem;
 	font-size: 0;
 }
@@ -683,7 +683,7 @@
 	width: 8rem; height: .7rem;
 	margin: .5rem 0 0;
 	font-size: 0;
-	background: url('/resource/images/bg_score.gif') no-repeat;
+	background: url('../images/bg_score.gif') no-repeat;
 	background-size: auto 100%;
 }
 .appList [class*="score"]:before {
@@ -691,7 +691,7 @@
 	position: absolute;
 	top: 0; left: 0;
 	height: .7rem;
-	background: url('/resource/images/bg_score_active.gif') no-repeat;
+	background: url('../images/bg_score_active.gif') no-repeat;
 	background-size: auto 100%;
 }
 .appList .score1:before {width:10%;}

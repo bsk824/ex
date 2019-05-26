@@ -27,9 +27,6 @@ button::-moz-focus-inner {padding:0;border:0;}
 	box-sizing: border-box;
 	-webkit-appearance: none;
 }
-select {
-	background:#fff url('/resource/www/resource/images/bg_select.gif') no-repeat 100% 50%;
-}
 textarea {
 	padding: 1rem;
 	box-sizing: border-box;
@@ -91,7 +88,7 @@ textarea {
 	top: 1.5rem; left: 1.5rem;
 	width: 1.6rem;
 	height: 1.3rem;
-	background: url('/resource/images/btn_menu.png') no-repeat;
+	background: url('../images/btn_menu.png') no-repeat;
 	background-size: cover;
 	font-size: 0;
 }
@@ -115,7 +112,7 @@ textarea {
 	position: absolute;
 	top: 0; right: 0;
 	width: 4rem; height: 3rem;
-	background: url('/resource/images/btn_search.png') no-repeat 50%;
+	background: url('../images/btn_search.png') no-repeat 50%;
 	background-size: 1.8rem;
 	font-size: 0;
 }
