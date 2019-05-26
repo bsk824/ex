@@ -25,11 +25,11 @@
 	background-repeat: no-repeat;
 	background-position: 50%;
 }
-.navMenu .navNews a:before {background-image: url('/resource/images/icon_nav_news.png');}
-.navMenu .navGame a:before {background-image: url('/resource/images/icon_nav_game.png');}
-.navMenu .navShoping a:before {background-image: url('/resource/images/icon_nav_shoping.png');}
-.navMenu .navMap a:before {background-image: url('/resource/images/icon_nav_map.png');}
-.navMenu .navSearch a:before {background-image: url('/resource/images/icon_nav_search.png');}
+.navMenu .navNews a:before {background-image: url('../images/icon_nav_news.png');}
+.navMenu .navGame a:before {background-image: url('../images/icon_nav_game.png');}
+.navMenu .navShoping a:before {background-image: url('../images/icon_nav_shoping.png');}
+.navMenu .navMap a:before {background-image: url('../images/icon_nav_map.png');}
+.navMenu .navSearch a:before {background-image: url('../images/icon_nav_search.png');}
 
 .dataChart {
 	padding: 1rem 0;
