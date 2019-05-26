@@ -36,16 +36,18 @@ textarea {
 	resize: none;
 }
 
-hr {margin:.5rem 0; border: 0;border-top: 1rem solid #eef3f9;}
+.section {
+	padding: 0 1rem;
+	border-top: .7rem solid #F3F3F3;
+}
 
 .subTitle1 {
-	padding: .5rem 1rem;
-	background: #eff2f9;
-	font-size: 1.8rem;
+	padding: 1rem 0 .5rem;
+	font-size: 1.5rem;
 }
 .subTitle1 span {
 	font-weight: normal;
-	font-size: 1.4rem;
+	font-size: 1rem;
 }
 .subTitle2 {
 	font-size: 1.8rem;
@@ -55,9 +57,6 @@ hr {margin:.5rem 0; border: 0;border-top: 1rem solid #eef3f9;}
 	font-size: 1.4rem;
 }
 
-.section {
-	margin: 1rem;
-}
 #header {
 	position: relative;
 }
@@ -125,7 +124,7 @@ hr {margin:.5rem 0; border: 0;border-top: 1rem solid #eef3f9;}
 	height: 4.4rem;
 }
 #header .headNav {border-bottom: .7rem solid #F3F3F3;}
-#header .headNav:after {
+#header .headNav ul:after {
 	content: "";
 	display: block;
 	clear: both;
@@ -142,7 +141,37 @@ hr {margin:.5rem 0; border: 0;border-top: 1rem solid #eef3f9;}
 	line-height: 1;
 	font-weight: bold;
 }
-#header .headNav .active a {border-color: #DC0025;}
+#header .headNav .active a {
+	border-color: #DC0025;
+	color: #DC0025;
+}
+#header .headNav .dp2 {border-top: .7rem solid #F3F3F3;}
+#header .headNav .dp2 a {
+	font-weight: normal;
+	border: 0;
+}
+
+.contentNav ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.contentNav li {
+	float: left;
+	width: 16.66%;
+	text-align: center;
+}
+.contentNav a {
+	display: inline-block;
+	padding: 1rem 0;
+	border-bottom: .25rem solid transparent;
+	line-height: 1;
+	font-weight: bold;
+}
+.contentNav .active a {
+	border-color: #DC0025;
+	color: #DC0025;
+}
 
 #footer {
 	padding: 2rem .5rem;
@@ -173,16 +202,20 @@ hr {margin:.5rem 0; border: 0;border-top: 1rem solid #eef3f9;}
 #footer .links {
 	width: 100%;
 	overflow: hidden;
+	margin: 0 0 1rem;
 	text-align: center;
 }
 #footer .links span {
 	float: left;
 	width: 33.33%;
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 #footer .links a {
 	display: block;
 	line-height: 3rem;
 	margin: .5rem;
+	color: #7B7B7B;
 	background: #fff;
 }
+
+.ftColor1 {color:#3A8ACF;}
