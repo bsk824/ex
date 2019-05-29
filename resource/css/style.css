@@ -86,9 +86,10 @@
 
 .realTimeKeyword {
 	position: relative;
+	height: 1.8rem;
 	padding: .9rem 4.5rem .9rem 9.5rem;
 }
-.realTimeKeyword + .dataChart {border-top: .1rem solid #D5D5D5;}
+.realTimeKeyword + .dataChart {border-top: .1rem solid #ededed;}
 .realTimeKeyword .title {
 	position: absolute;
 	top: .75rem; left: 1.5rem;
@@ -133,6 +134,7 @@
 	padding: 0 1.5rem;
 	border-top: .7rem solid #F3F3F3;
 }
+.linkList:first-child {border: 0;}
 .linkList .more {
 	position: absolute;
 	top: 1rem; right: 1rem;
@@ -147,7 +149,7 @@
 }
 .linkList .txtType li {
 	line-height: 2;
-	border-top: .1rem solid #D5D5D5;
+	border-top: .1rem solid #ededed;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
@@ -167,7 +169,7 @@
 	display: block;
 	margin: 1.5rem 0 2rem;
 	padding: 1rem;
-	border: 1px solid #D5D5D5;
+	border: 1px solid #ededed;
 	box-shadow: .2rem .2rem .5rem rgba(0,0,0,.07);
 }
 .adWrap .tit {
@@ -214,7 +216,7 @@
 
 
 .linkList .srcType li {
-	border-top: .1rem solid #D5D5D5;
+	border-top: .1rem solid #ededed;
 }
 .linkList .srcType li:first-child {border: 0;}
 .linkList .srcType a {
@@ -251,7 +253,7 @@
 }
 .linkList .thumbType .thumb {
 	display: block;
-	border: .1rem solid #D5D5D5;
+	border: .1rem solid #ededed;
 }
 .linkList .thumbType img {width: 100%;}
 .linkList .thumbType a {
@@ -290,7 +292,7 @@
 	overflow: hidden;
 	display: block;
 	margin: .2rem;
-	border: 1px solid #D5D5D5;
+	border: 1px solid #ededed;
 }
 .linkList .thumbBigType img {width: 100%;}
 .linkList .thumbBigType .txt {
@@ -343,7 +345,7 @@
 
 .linkList .newsType2 li {
 	padding: 1rem 0;
-	border-top: 1px solid #D5D5D5;
+	border-top: 1px solid #ededed;
 }
 .linkList .newsType2 li:first-child {border: 0;}
 .linkList .newsType2 a {
@@ -393,7 +395,7 @@
 .linkList .gridType .itemLeng3 li {width: 33.33%;}
 .linkList .gridType .thumb {
 	display: block;
-	border: 1px solid #D5D5D5;
+	border: 1px solid #ededed;
 }
 .linkList .gridType .txt {
 	margin: .5rem 0 0;
@@ -481,7 +483,7 @@
 	width: 4rem;
 	margin: 0 auto .5rem;
 	border-radius: 1.5rem;
-	border: 1px solid #D5D5D5;
+	border: 1px solid #ededed;
 }
 
 .gameList {margin: -1rem 0 0;}
@@ -574,7 +576,7 @@
 	position: absolute;
 	top: 0; left: 0;
 	width: 8.5rem;
-	border: .1rem solid #D5D5D5;
+	border: .1rem solid #ededed;
 }
 .gameList3 .tit {
 	display: block;
@@ -627,7 +629,7 @@
 	position: absolute;
 	top: 0; left: 0;
 	width: 8.5rem;
-	border: 1px solid #D5D5D5;
+	border: 1px solid #ededed;
 }
 .shopType .txt {
 	display: -webkit-box;
@@ -660,7 +662,7 @@
 	width: 8.6rem;
 	margin: 0 .2rem;
 	padding: .8rem;
-	border: 1px solid #D5D5D5;
+	border: 1px solid #ededed;
 	border-radius: .4rem;
 	box-shadow: .2rem .2rem .2rem rgba(0,0,0,.05);
 }
@@ -702,17 +704,21 @@
 
 .relatedKeywrod {
 	position: relative;
-	padding: .5rem 6rem .5rem 1rem;
+	height: 1.8rem;
+	padding: .9rem 6rem .9rem 1rem;
 	font-size: 1.3rem;
+	border-bottom: 1px solid #ededed;
 }
 .relatedKeywrod .tit {
 	display: inline-block;
 	margin: 0 .5rem 0 0;
 }
-.relatedKeywrod .keyword {display: inline-block;}
+.relatedKeywrod .keyword {
+	display: inline-block;
+}
 .relatedKeywrod .more {
 	position: absolute;
-	top: .3rem; right: .5rem;
+	top: .8rem; right: .5rem;
 	color: #757575;
 }
 .relatedKeywrod .more:before {
@@ -724,7 +730,6 @@
 
 .searchResult {
 	padding: 0 0 .8rem;
-	background: #F3F3F3;
 	border-top: 1px solid transparent;
 }
 .searchResult .resultCard {
